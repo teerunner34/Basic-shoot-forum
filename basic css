@@ -1,0 +1,51 @@
+html{
+  background-image: url(https://freight.cargo.site/t/original/i/a2df9b9debb31a3222ca49eed6dc2e4506c080261732dd6e61880b9db2685328/_DSC34042.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container{
+  background-color: #F5F5DC;  
+  width: 500px;
+  margin: auto;
+}
+Body {
+  font-family: Helvetica, ariel, sans-serif; 
+}
+H1 {
+  Font-size: 50px;
+  font-weight: 350;
+  color: #000000
+}
+.form-group, p1{
+  color: #696969
+}
+.form-group{
+  display: block;
+  margin: 15px;
+}
+.radio-label, .checkbox-label{
+  display: block;
+  margin: 4px;
+}
+.input-checkbox-textarea{
+  width: 150px;
+  height: 22px;
+}
+input, select, textarea{
+  background-color: #F0FFFF;
+}
+#comments{
+  display: block;
+  margin-top: 15px;
+  height: 50px;
+  width: 450px;
+}
+.submit-button{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #87CEEB;
+  border-radius: 8px;
+  cursor: pointer;
+}
