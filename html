@@ -1,0 +1,68 @@
+<!DOCKTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body>
+    <div class="container">
+      <header>
+        <h1 id="title">Booking a Shoot</h1>
+        <p id="description">Fill out this form to get the best out of your Shoot</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" name="name" type="text" class="form-control" placeholder="Enter your name" required> 
+        </div> 
+        <div class="form-group">
+          <label id="email-label" for="Email">Email</label>
+          <input id="email" name="email" type="email" class="form-control" placeholder="Enter your Email" required> 
+        </div> 
+        <div class="form-group">
+          <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+          <input id="number" name="number" type="number" Min="16" Max="120" class="form-control" placeholder="Age" required> 
+        </div> 
+        <div class="form-group">
+          <p>What best describes your desired style<p>
+          <select id="dropdown" Name="style" class="form-control" required>
+            <option disabled selected value>Desired Style</option> 
+            <option value="editorial">Editorial</option>
+            <option value="documentary">Documentary</option>
+            <option value="street">Street</option>
+            <option value="commercial">Commercial</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <p>What are your desired color tones for this project?</p>
+          <label class="radio-label">
+            <input name="color-tones" value="black-&-white" type="radio" class="input-radio">Black & White
+          </label>
+          <label class="radio-label"><input name="color-tones" value="warm-tones" type="radio" class="input-radio">Warm Tones</label>
+          <label class="radio-label"><input name="color-tones" value="earth-tones" type="radio" class="input-radio">Earth Tones</label>
+          <label class="radio-label"><input name="color-tones" value="neutrals" type="radio" class="input-radio">Neutrals</label>
+          <label class="radio-label"><input name="color-tones" value="cold-tones" type="radio" class="input-radio">Cold Tones</label>
+        </div>
+        <div class="form-group">
+          <p>
+            What elements would you like to see included in the final images?
+            <span class="clue">(select all that apply)</span>
+          </p>
+          <label class="checkbox-label"><input name="final-image-inclusion" value="close-up-portraits" type="checkbox" class="input-checkbox">Close-up Portraits</label>
+          <label class="checkbox-label"><input name="final-image-inclusion" value="full-body-poses" type="checkbox" class="input-checkbox">Full body shots</label>
+          <label class="checkbox-label"><input name="final-image-inclusion" value="detail-shots" type="checkbox" class="input-checkbox">Detail Shots</label>
+          <label class="checkbox-label"><input name="final-image-inclusion" value="lifestyle-shots" type="checkbox" class="input-checkbox">Lifestyle Shots</label>
+          <label class="checkbox-label"><input name="final-image-inclusion" value="other" type="checkbox" class="input-checkbox"><textarea class="input-checkbox-textarea" placeholder="Other"></textarea></label>
+        </div>  
+        <div class="form-group">
+          <p>What other inspiration or references should inform this shoot?<span class="clue">(Vogue, GQ, Moodboard link, etc)<span>
+           <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your inspo here"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>  
+    </div>
+  </body>
+</html>
